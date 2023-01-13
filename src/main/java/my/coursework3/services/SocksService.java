@@ -1,6 +1,8 @@
-package services;
+package my.coursework3.services;
 
 import org.springframework.stereotype.Service;
+import my.coursework3.repository.*;
+import my.coursework3.characteristic.*;
 
 @Service
 public class SocksService {

@@ -1,6 +1,20 @@
+package my.coursework3.repository;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import my.coursework3.characteristic.Warehouse;
+import my.coursework3.services.*;
+import my.coursework3.characteristic.*;
+
+import jakarta.annotation.PostConstruct;
+import lombok.Data;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Repository;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Set;
 
 import lombok.Data;
 
