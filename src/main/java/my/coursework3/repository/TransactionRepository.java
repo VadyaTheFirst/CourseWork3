@@ -1,5 +1,11 @@
-package repository;
+package my.coursework3.repository;
+import my.coursework3.services.*;
+import my.coursework3.characteristic.*;
 
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
@@ -9,6 +15,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.TreeMap;
 import java.util.TreeSet;
+
 
 @Data
 @Repository
